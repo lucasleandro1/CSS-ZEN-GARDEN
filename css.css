@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.page-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.page-wrapper h3{
+    font-family: Opens Sans;
+}
+.supporting{
+    order: -2;
+}
+.supporting p{
+    font-size: 1rem;
+}
+.supporting h3,p{
+    padding: 0px 70px;
+    padding-right: 20%;
+    padding-left: 10%;
+}
+.supporting h3{
+    padding-top: 40px;
+    font-size: 2.5rem;
+}
+.sidebar{
+
+    background-color: #a3b18a;
+    padding: 30px;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding-top: 5px;
+}
+.sidebar ul li{
+    padding-top: 40px;
+}
+.sidebar h3{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Roboto;
+
+}
+.division{
+
+    background-color: #dad7cd;
+}
+.division h3{
+    padding-bottom: 30px;
+    font-family: Open Sans;
+    text-align: center;
+}
+.intro h1,h2{
+    text-align: center;
+    background-color: #588157;
+    font-family: Island Moments;
+    color:#18241e ;
+}
+.intro h1{
+    font-size: 5rem;
+}
+.intro h2{
+    font-size: 2.5rem;
+}
+.summary{
+    text-align: center;
+    padding: 30px;
+    background-color: #588157;
+}
+.summary p{
+    color:black ; 
+}
+.preamble{
+    padding-top: 30px;
+}
+.preamble h3{
+    padding-left: 50px;
+    font-size: 2.5rem;
+    margin-right: 150px;
+}
+.preamble p{
+    font-size: 1rem;
+}
+footer{
+    text-align: center;
+    background-color: #344e41;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+footer a {
+    padding-left: 100px ;
+}
+p{
+    text-indent: 1rem;
+    font-family: Ubuntu;
+    color: #3a5a40;
+}
+.requeriments{
+    padding-bottom: 50px;
+}
+.list {
+    padding-top: 30px;
+    margin-top: 30px;
+    display: flex;
+    width: 80%;
+    height: 20%;
+}
+.list a{
+    padding-top: 10px;
+    padding-left: 170px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-decoration-line: none;
+    font-family: Anton;
+    font-size: 1.2rem;
+}
+.design-archives{
+    padding-top: 50px;
+}
+.zen-resources{
+    padding-top: 50px;
+}
+.design-name{
+    font-size: 1.2rem;
+}
+.design-archives{
+    font-size: 1.2rem;
+}
+.zen-resources{
+    font-size: 1.2rem;
+}
+.zen-resources a{
+    text-decoration: none;
+}
+@media (max-width: 1236px){
+    .list a{
+        padding-top: 10px;
+        padding-left: 150px;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        text-decoration-line: none;
+        font-family: Anton;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 1112px){
+    .list a{
+        padding-top: 10px;
+        padding-left: 120px;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        text-decoration-line: none;
+        font-family: Anton;
+        font-size: 1.2rem;
+    }
+    .sidebar{
+        width: 15%;
+        background-color: #a3b18a;
+        padding: 30px;
+    }
+}
+@media (max-width: 924px){
+    .list a{
+        padding-top: 10px;
+        padding-left: 100px;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        text-decoration-line: none;
+        font-family: Anton;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:864px){
+    .preamble h3{
+        padding-left: 50px;
+        font-size: 2.3rem;
+        margin-right: 150px;
+    }
+}
+@media (max-width: 840px){
+    .sidebar h3{
+        padding-top: 30px;
+        font-size: 0.1rem;
+        font-family: Roboto;
+        border-width: 5px;
+    border-style: solid;
+    border-color: #00f
+    }
+    .sidebar{
+        width:100%;
+        background-color: #a3b18a;
+        padding: 30px;
+        
+    }
+    .division{
+        width: 60%;
+        background-color: #dad7cd;
+    }
+}
+@media (max-width: 799px){
+    .list a{
+        padding-top: 10px;
+        padding-left: 80px;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        text-decoration-line: none;
+        font-family: Anton;
+        font-size: 1.2rem;
+    }
+    .division h3{
+        padding-bottom: 30px;
+        font-family: Open Sans;
+        font-size: 2rem;
+    }
+}
+@media (max-width:926px){
+    .sidebar{
+        width: 15%;
+        background-color: #a3b18a;
+        padding: 30px;
+    }
+    .division{
+        width: 85%;
+        background-color: #dad7cd;
+    }
+    .sidebar h3{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: Roboto;
+    }
+}
+@media (max-width:840px){
+    .sidebar{
+        width: 10%;
+        background-color: #a3b18a;
+        padding: 30px;
+    }
+    .division{
+        width: 90%;
+        background-color: #dad7cd;
+    }
+}
